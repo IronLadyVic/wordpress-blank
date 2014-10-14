@@ -1,0 +1,144 @@
+/*---------------------------------------------------*/
+.banner {
+    background: transparent url('http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
+
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+.banner-head {
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+}
+/*---------------------------------------------------*/
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+.content p{
+    line-height: 150%;
+}
+/*---------------------------------------------------*/
+.services{
+    display: flex;
+    justify-content:space-between;
+}
+.service{
+    width: 30%;
+}
+.service-header {
+    background: #111;
+    color: #fff;
+    text-align: center;
+}
+.service-header h2 {
+    margin: 0;
+    padding-top: 2em;
+    font-size: 1em;
+    font-weight: normal;
+
+}
+
+.service-price {
+    font-size: 6em;
+    margin: 0.2em 0 0;
+    font-weight: 100;
+}
+.service-price span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.2em;
+    padding-bottom: 2em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    *color: #fff;
+}
+
+.service-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.service-list li {
+    padding: 0.8em 0;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*---------------------------------------------------*/
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact>h2{
+    width: 100%
+}
+.contact-left{
+    width: 40%
+}
+
+.contact-right{
+    flex-basis: 40%;
+    flex-grow:1;
+    margin-left:4em;
+}
+
+/*---------------------------------------------------*/
+
+.pure-form label {
+    margin: 1em 0 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pure-form input[type] {
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+}
+/*---------------------------------------------------*/
+.gallery{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.gallery img{
+    width: 100%;
+}
+/*---------------------------------------------------*/
+.footer {
+    background: #111;
+    color: #888;
+    text-align: center;
+    padding: 1em;
+}
